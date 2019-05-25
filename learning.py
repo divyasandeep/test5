@@ -164,7 +164,7 @@ print(f"down_payment: {down_payment}")
        #Eligible for loan
 
        has_high_income = True
-       has_good_credit = True
+       has_good_credit = False
 if has_high_income  and has_good_credit:
     print("Eligible for loan")
 
