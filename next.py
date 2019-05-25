@@ -26,7 +26,7 @@ print("Make sure data is uploaded to git")
 
 # otherwise
 # it's neither hot or cold'
-temperature = 30
+temperature = 35
 if temperature > 30
 
     print("it's hot day")
