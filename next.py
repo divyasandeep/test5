@@ -14,3 +14,4 @@ if has_good_credit:
 else:
     down_payment=(0.2 * house_price)
 print(f"down_payment: {down_payment}")
+print("Make sure data is uploaded to git")
