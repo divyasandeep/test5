@@ -33,3 +33,6 @@ if temperature > 30
 
 else
     print("it's not a hot day")
+
+
+    #if name is lessathan 3 characters                                         zxzx`
