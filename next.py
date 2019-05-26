@@ -35,4 +35,21 @@ else
     print("it's not a hot day")
 
 
-    #if name is lessathan 3 characters                                         zxzx`
+    #if name is lessathan 3 characters
+
+    #name must be atleast 3characters long
+    #name atleat 3 characters
+    #otherwise if it's is more than 50 characters long
+    #name can be maximum of 50 characters
+    #otherwise name looks good
+
+    name = 3
+
+    if len(name) > 3:
+
+    print("name atleast 3 characters")
+elif len(name) > 50:
+print("name can be maximum of 50 characters")
+else
+name looks good
+
