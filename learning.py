@@ -194,6 +194,20 @@ if temperature  > 30
 else
     print(it's cold day')
 
+    # weight converter:
+
+    # weight= 55
+    # (L)bs or (kg) :k
+
+    weight = input('weight: ')
+    unit = input('(L)bs or (K): ')
+    if unit.upper() == "L":
+        converted = weight * 0.45
+        print(f"you are {converted} kilos")
+    else:
+        converted = weight / 0.45
+        print(f"you are {converted} pounds")
+
 
 
 

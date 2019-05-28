@@ -53,3 +53,17 @@ print("name can be maximum of 50 characters")
 else
 name looks good
 
+#weight converter:
+
+#weight= 55
+#(L)bs or (kg) :k
+
+weight = input('weight: ')
+unit = input('(L)bs or (K): ')
+if unit.upper( )== "L":
+    converted = weight * 0.45
+    print(f"you are {converted} kilos")
+else:
+    converted  = weight / 0.45
+    print(f"you are {converted} pounds")
+
