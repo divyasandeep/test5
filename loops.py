@@ -1,4 +1,4 @@
-for item in  ['python' , 'java' , 'c++']:
+for item in range(15):
     print(item)
 
 
