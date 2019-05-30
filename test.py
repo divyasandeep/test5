@@ -18,3 +18,6 @@ while guess_count < guess_limit:
     guess_count += 1
     if guess == secreat_number:
         print('you won! ')
+        break
+else:
+    print('sorry,you failed')
